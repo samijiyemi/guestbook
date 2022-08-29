@@ -2,8 +2,6 @@ const express = require("express");
 const router = express.Router();
 const Entry = require("../model/entries");
 
-//  create a global array to store all your entries
-
 router.get("/", async (req, res) => {
   res.render("new-entry");
 });
