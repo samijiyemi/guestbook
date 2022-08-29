@@ -1,0 +1,20 @@
+{
+  "name": "js-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "integer.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3",
+    "morgan": "^1.10.0"
+  }
+}
